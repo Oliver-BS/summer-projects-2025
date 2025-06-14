@@ -33,7 +33,7 @@ pixels_2 = [
 ]
 
 
-TG = TileGrid(size = (490,490), forceSqaure = True, nx = 15, ny = 15)
+TG = TileGrid(winSize = (490,490), forceSqaure = True, nx = 15, ny = 15)
 grid = TG.getGrid()
 for x,y in pixels_1:
     grid[y][x].setColor("yellow")
